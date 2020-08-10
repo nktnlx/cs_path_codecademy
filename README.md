@@ -19,7 +19,7 @@ With The Computer Science Career Path I've learned, practiced and successfully a
 
 
 List of projects:
-1. Name -- description.  
+1. Shipping Costs calculator -- prints shipping tariffs in a table view, takes weight of a parcel as a user's input, calculates shipping costs for different shipping methods and returns the most cost-effective shipping solution.     
 2. Name -- description.  
 3. Name -- description.      
 4. Name -- description.  
