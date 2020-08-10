@@ -4,7 +4,7 @@ Hi there!
 I'm intensively learning to code and interested in data science, aiming to be hired by the end of 2020.  
 This repository is for completed projects and code snippets from Codecademy Computer Science Career Path: https://www.codecademy.com/learn/paths/computer-science  
 
-With The Computer Science Career Path I've learned, practiced and successfully applied the following skills & topics:  
+With The Computer Science Career Path I've learned, practiced and successfully applied following skills & topics:  
 1. Command Line Commands  
 2. Learn Git Course  
 3. Python 3  
@@ -16,6 +16,7 @@ With The Computer Science Career Path I've learned, practiced and successfully a
 9. Sorting Algorithms with Python  
 10. Search Algorithms with Python  
 11. Graph Search Algorithms  
+
 
 List of projects:
 1. Name -- description.  
