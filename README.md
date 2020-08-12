@@ -19,9 +19,9 @@ With The Computer Science Career Path I've learned, practiced and successfully a
 
 
 List of projects:
-1. Shipping Costs calculator -- prints shipping tariffs in a table view, takes weight of a parcel as a user's input, calculates shipping costs for different shipping methods and returns the most cost-effective shipping solution.     
-2. Name -- description.  
-3. Name -- description.      
+1. Shipping Costs Calculator -- prints shipping tariffs in a table view, takes weight of a parcel as a user's input, calculates shipping costs for different shipping methods and returns the most cost-effective shipping solution.     
+2. Symbols Stats -- reads a txt file provided as an optional argument when running the script, parses the file and calculates frequency of each symbol occurances, prints each symbol ranked based on its occurance in the text from the most frequent to the least frequent, shows the total amount of symbols in the file.  
+3. Words Stats -- reads a txt file provided as an optional argument when running the script, parses the file and calculates frequency of each word occurances, prints each word and number of times it appeared in the text ranked based on its occurance from the most frequent to the least frequent, shows the total amount of words in the file.        
 4. Name -- description.  
 
 Also you can find a Certificate of Successful Completion of the Computer Science Career Path in the root directory of the given repository: CS_Career_Path_CERTIFICATE.pdf  
