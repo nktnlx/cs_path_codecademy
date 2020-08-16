@@ -22,9 +22,11 @@ List of projects:
 1. Shipping Costs Calculator -- prints shipping tariffs in a table view, takes weight of a parcel as a user's input, calculates shipping costs for different shipping methods and returns the most cost-effective shipping solution.     
 2. Symbols Stats -- reads a txt file provided as an optional argument when running the script, parses the file and calculates frequency of each symbol occurances, prints each symbol ranked based on its occurance in the text from the most frequent to the least frequent, shows the total amount of symbols in the file.  
 3. Words Stats -- reads a txt file provided as an optional argument when running the script, parses the file and calculates frequency of each word occurances, prints each word and number of times it appeared in the text ranked based on its occurance from the most frequent to the least frequent, shows the total amount of words in the file.        
-4. Name -- description.  
+4. Daily Sales -- reads a txt file provided as an optional argument when running the script, cleans imported data, prints sales data in a tabular view, calculates and prints daily sales statistics (total number of transactions, gross sales, smallest purchase, largest purchase, average purchase, median purchase), calculates and prints sales stats by colors of sold items.    
+
 
 Also you can find a Certificate of Successful Completion of the Computer Science Career Path in the root directory of the given repository: CS_Career_Path_CERTIFICATE.pdf  
+
 
 Hope this repo will help you to assess my coding skills or will be just fun for you to play with.  
 

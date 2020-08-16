@@ -2,7 +2,7 @@ The script was coded by me during completion of Codecademy Computer Science Care
 
 
 The shipping costs calculator:  
-- prints tariffs for different shipping methods in a table view  
+- prints tariffs for different shipping methods in a tabular view  
 - takes a weight of a parcel to be shipped from a user input   
 - calculates shipping costs for different shipping methods   
 - prints the most cost-effective shipping solution for the customer  
@@ -12,7 +12,7 @@ The code was created using Python 3.7.6
 If your machine has an installed Python 3, you can run the code in terminal(command line) by typing:   
 $ python3 shipping_costs_calc.py  
 
-To run the script properly, you have to instal python-tabulate pretty-print tabular data library (for more info on python-tabulate and how to install it, please, visit https://pypi.org/project/tabulate/):  
+To run the script properly, you have to install python-tabulate pretty-print tabular data library (for more info on python-tabulate and how to install it, please, visit https://pypi.org/project/tabulate/):  
 $ pip install tabulate  
 
 
