@@ -12,6 +12,8 @@ The code was created using Python 3.7.6
 If your machine has an installed Python 3, you can run the code in terminal(command line) by typing:   
 $ python3 shipping_costs_calc.py  
 
+To run the script properly, you have to instal python-tabulate pretty-print tabular data library (for more info on python-tabulate and how to install it, please, visit https://pypi.org/project/tabulate/):  
+$ pip install tabulate  
 
 
 --------------------------------------------
