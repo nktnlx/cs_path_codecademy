@@ -6,13 +6,12 @@ The 'Conjugate Me' script:
 - conjugates them according to English language grammar rules  
 - uses elif statements and a complete dictionary of 478 irregular verbs to produce correct conjugations  
 - the output is in a tabular view, as below:  
-+--------------+-----------------------+----------------------+---------------+-------------------+  
-| Infinitive   | 3rd Person Singular   | Present Participle   | Past Simple   | Past Participle   |  
-|--------------+-----------------------+----------------------+---------------+-------------------|  
-| buy          | buys                  | buying               | bought        | bought            |  
-| run          | runs                  | running              | ran           | run               |  
-| melt         | melts                 | melting              | melted        | melted            |  
-+--------------+-----------------------+----------------------+---------------+-------------------+  
+
+Infinitive | 3rd Person Singular | Present Participle | Past Simple | Past Participle
+---------- | ------------------- | ------------------ | ----------- | ---------------
+buy | buys | buying | bought | bought
+run | runs | running | ran | run
+melt | melts | melting | melted | melted
 
 - after the output was printed the program asks to continue with another input or exit  
 
