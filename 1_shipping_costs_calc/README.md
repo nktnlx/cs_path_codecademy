@@ -6,6 +6,45 @@ The shipping costs calculator:
 - takes a weight of a parcel to be shipped from a user input   
 - calculates shipping costs for different shipping methods   
 - prints the most cost-effective shipping solution for the customer  
+- a sample output of running the script is below:  
+```
+Welcome to the "Fast&Furious" Shipping Agency!
+Here is a list of our tariffs:
+
+ G R O U N D   S H I P P I N G
++-----------------+-------------------+
+|     Weight      | Price per kg, USD |
++-----------------+-------------------+
+| less than 2 kg  |        1.5        |
+| from 2 to 6 kg  |        3.0        |
+| from 6 to 10 kg |        4.0        |
+| 10 kg and more  |       4.75        |
++-----------------+-------------------+
+Plus 20.0 USD fix price for the total sum of the tariff.
+
+
+P R E M I U M   G R O U N D   S H I P P I N G
++-------------------------------------+
+| 125.0 USD fix price for any weight! |
++-------------------------------------+
+
+
+D R O N E   S H I P P I N G
++-----------------+-------------------+
+|     Weight      | Price per kg, USD |
++-----------------+-------------------+
+| less than 2 kg  |        4.5        |
+| from 2 to 6 kg  |        9.0        |
+| from 6 to 10 kg |       12.0        |
+| 10 kg and more  |       14.25       |
++-----------------+-------------------+
+
+
+Please, enter the weigth of your parcel in kg and we'll provide you with the cheapest option of the shipment: 7.5
+
+The cheapest option available for a 7.5 kg parcel is 50.00 USD with standard ground shipping.
+
+```
 
 
 The code was created using Python 3.7.6  
