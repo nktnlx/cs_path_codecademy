@@ -2,6 +2,7 @@ from datetime import datetime, date
 import sys
 
 
+# counting info about today
 def days_passed():
     today = date.today()
     first_of_jan = date(today.year, 1, 1)
@@ -9,6 +10,7 @@ def days_passed():
     days_left = first_of_jan.replace(year=today.year + 1) - today
     weeks_passed = passed_days.days // 7
     
+    # string representation of a date
     today_str = datetime.strftime(datetime.now(), '%A, %B %d, %Y')
     
     print(f'\nToday {today_str} is Day {passed_days.days + 1} of the year.')
@@ -17,6 +19,7 @@ def days_passed():
     print(f'YEAR PROGRESS [{weeks_passed / 52 * 100:.0f}%]: ' + '[' + '/' * weeks_passed + '.' * (52 - weeks_passed) + ']')
     
 
+# receiveing input about the user's birthday (BD)
 def birthday_input():
     birthday = input('\nPlease, enter your birthday in a valid format (e.g. 17/02/1963): ')
     while not (len(birthday) == 10 and '/' in birthday):
@@ -26,10 +29,18 @@ def birthday_input():
     return birthday_lst
 
 
+# counting days till user's BD and user's current age
 def days_till_birthday(lst):
     day_of_birth, month_of_birth, year_of_birth = lst[0], lst[1], lst[2]
     today = date.today()
-    birthday = date(year_of_birth, month_of_birth, day_of_birth)
+    
+    # handling ValueError of an incorrect input
+    try:
+        birthday = date(year_of_birth, month_of_birth, day_of_birth)
+    except ValueError as err:
+        print(f'ValueError: {err}', 'Please, try again with a valid input!\n', sep='\n')
+        exit()
+
     birthday_this_year = date(today.year, month_of_birth, day_of_birth)
     
     if birthday > today:
@@ -44,22 +55,22 @@ def days_till_birthday(lst):
         days = (birthday.replace(year=today.year - 1) - today) * -1
         days_till_bd = birthday_this_year - today
         print(f'You are {age - 1} years and {days.days} days young. Only {days_till_bd.days} days left till your birthday!')
-
-        
     else:
         age = today.year - birthday.year    
         print(f'Congrats! It\'s your birthday! You are {age} years young now.')
 
-        
+
+# greeting a user        
 def greet():
     print(*'WELCOME TO THE \'DAYS COUNT\'\n')
     choice = input('''PRESS:
-    1 - for info ABOUT TODAY,
+    1 - for an info ABOUT TODAY,
     2 - to count till your Birthday
     Your choice: ''')
     return choice
         
-        
+
+# running the script        
 def run_the_script(user_input):
     while not (user_input == '1' or user_input == '2'):
         run_the_script(greet())
@@ -72,12 +83,5 @@ def run_the_script(user_input):
         print('\nGood bye! Please, come back whenever you feel the urge.\n')
         exit()
     
-
-
-#birthday_input()
-
-#days_till_birthday(birthday_input())
-
-#days_passed()
 
 run_the_script(greet())
